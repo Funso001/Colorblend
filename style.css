@@ -1,0 +1,42 @@
+.venn1{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: purple;
+margin: 50px ;
+mix-blend-mode:screen;
+}
+.venn2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: -120px 100px;
+    mix-blend-mode: screen;
+}
+.venn3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    margin: -150px 5px;
+    mix-blend-mode: screen;
+    z-index: 10;
+}
+.venn{
+    width: 40vh;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+    height: 50vh;
+}
+.oba{
+    width: 70vh;
+    height: 70vh;
+    background-color: black;
+    margin: 10px auto;
+}
+.body{
+    background-color: black;
+}
+
+@media 
